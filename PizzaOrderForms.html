@@ -1,0 +1,151 @@
+<!----Create a one-page site with a pizza order form. The ordering process should be broken down
+into three steps. Technical requirements on page 2. (30 points)
+Step 1. Choose pizza details:
+• Size (small $7, medium $9, large $12)
+• Crust (thin, pan, GF)
+• Meats ($1.50 each)
+• Veggies ($1.00 each)
+Step 2. Enter delivery information
+• Name
+• Address
+• Phone
+Step 3. Order confirmation
+• Display all the pizza details and customer information.
+• Display subtotal, tax (5.1 %), delivery fee ($2), and total amount due
+(all formatted to 2 decimal places).--->
+<html>
+<head>
+    <title>Pizza Order </title>
+
+    <link href="Pizzaorder.css" rel="stylesheet" type="text/css" />
+    
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="tabs.js"></script>
+</head>
+<body>
+    <header> Pizza </header>
+    <div class="tabs">
+        <ul class="tabNavigation">
+            <li><a href="PizzaOrderForms.html#first" class="navTab">Pizza Details</a></li>
+            <li><a href="PizzaOrderForms.html#second" class="navTab">Delivery Information</a></li>
+            <li><a href="pizzaOrderForms.html#third" class="navTab">order conformation </a></li>
+        
+        </ul>
+        <div id="first" class="divTab">
+                <form>
+                        <fieldset>
+                            <legend> Choose Pizza Size </legend>
+                            <label>
+                            <input type="radio" name="pizzaSize" value="small" checked=""> Small $7
+                            </label>
+                            <br>
+                            <label>
+                            <input type="radio" name="pizzaSize" value="medium"> Medium $ 9
+                            </label>
+                            <br>
+                            <label>
+                            <input type="radio" name="pizzaSize" value="large"> Large $12
+                            </label>
+                            <br>
+                            <label>
+                            </fieldset>
+                            
+                            <br>
+                            <!---• Crust (thin, pan, GF)-->
+                            <fieldset>
+                                    <legend> Choose Pizza Crust  </legend>
+                                    <label>
+                                    <input type="radio" name="pizzaCrust" value="thin" checked="thin"> thin
+                                    </label>
+                                    <br>
+                                    <label>
+                                    <input type="radio" name="pizzaCrust" value="pan"> pan
+                                    </label>
+                                    <br>
+                                    <input type="radio" name="pizzaCrust" value="GF" checked="GF"> GF
+                                    </label>
+                                    <br>
+                                    </fieldset>
+                                    <br>
+            
+            
+        </div>
+        <div id="second" class="divTab">
+            <!---Step 2. Enter delivery information • Name  Address  • Phone-->
+            <fieldset>
+                    <legend> Delivery information </legend>
+                    Name<input type="text"> 
+                    <br>
+                    <br>
+                    Address<input type="text" size="100">
+                    <br>
+                    <br>
+             
+             Telephone <input type="tel" pattern="\([0-9]{3})[0-9]{3}-[0-9]{4}" title="Read my mind">
+             <br>
+             <br>
+         </fieldset>  
+            
+        
+        </div>
+        <div id="third" class="divTab">
+            
+        </div>
+        <div id="fourth" class="divTab">
+                
+                   
+             
+            </div>
+    </div>
+    <footer> coppy 2019</footer>  
+</body>
+</html>
+
+
+    
+        
+    
+
+
+
+
+
+        <!----Step 1. Choose pizza details:--->
+       <!--- • Size (small $7, medium $9, large $12)--->
+    
+
+               <!--- • Meats ($1.50 each)  • Veggies ($1.00 each)--
+                <input type="radio" name="meatPizza" value="meats" checked="meats"> meats ($1.50 each)
+                </label>
+                <br>
+                <input type="radio" name="VeggiePizza" value="Veggies"> Veggies($1.00 each)
+                </label>
+                <br>
+                <br>
+
+               
+        </form>
+
+    </body>
+    </html>---->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
